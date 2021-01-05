@@ -42,7 +42,6 @@ export class CreateApplicant {
     this.controller.validate()
       .then(validationResult => {
         if(validationResult.valid) {
-          this.applicant.age -= 10;
           this.appService.createApplicant(this.applicant).then(data => {
             console.log(data);
             this.router.navigate(`success`);
@@ -68,8 +67,6 @@ export class CreateApplicant {
 
   setLocale(locale) {
     return new Promise( resolve => {
-      let oldLocale = this.i18N.getLocale();
-      console.log(oldLocale);
       this.i18N.setLocale(locale, tr => {
         this.signaler.signal('aurelia-translation-signal');
         resolve(tr);
