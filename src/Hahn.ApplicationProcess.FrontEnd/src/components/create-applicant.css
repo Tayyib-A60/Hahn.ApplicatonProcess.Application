@@ -1,0 +1,19 @@
+*.aurelia-validation-message {
+  display: inline;
+  margin-left: 5px;
+} 
+*.aurelia-validation-message:empty {
+  display: none;
+}
+.has-success {
+  color: #3c763d;
+  border: 1px solid  #3c763d;
+}
+.has-warning {
+  color: #8a6d3b;
+  border: 1px solid  #8a6d3b;
+}
+.has-error {
+  color: #ff0800;
+  border: 1px solid  #ff0800;
+}

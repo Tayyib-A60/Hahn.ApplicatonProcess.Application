@@ -1,8 +1,0 @@
-C:\Users\Toheeb Adesokan\Documents\Hahn.ApplicatonProcess.Application\src\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.deps.json
-C:\Users\Toheeb Adesokan\Documents\Hahn.ApplicatonProcess.Application\src\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.dll
-C:\Users\Toheeb Adesokan\Documents\Hahn.ApplicatonProcess.Application\src\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.pdb
-C:\Users\Toheeb Adesokan\Documents\Hahn.ApplicatonProcess.Application\src\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.AssemblyInfoInputs.cache
-C:\Users\Toheeb Adesokan\Documents\Hahn.ApplicatonProcess.Application\src\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.AssemblyInfo.cs
-C:\Users\Toheeb Adesokan\Documents\Hahn.ApplicatonProcess.Application\src\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.csproj.CoreCompileInputs.cache
-C:\Users\Toheeb Adesokan\Documents\Hahn.ApplicatonProcess.Application\src\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.dll
-C:\Users\Toheeb Adesokan\Documents\Hahn.ApplicatonProcess.Application\src\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.pdb

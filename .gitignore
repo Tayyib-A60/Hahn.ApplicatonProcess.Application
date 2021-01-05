@@ -1,0 +1,5 @@
+.vs
+src/*/node_modules
+src/*/obj
+src/*/bin
+src/*/.vs

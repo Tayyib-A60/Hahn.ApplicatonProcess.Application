@@ -1,0 +1,18 @@
+<template>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary justify-content-between">
+    <a route-href="apply"><span class="navbar-brand mb-0 h1" href="#" t="nav:application">${appTitle} Application</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="sidebar-module">
+      <h4 t='nav:changeLanguage'>Change Language</h4>
+      <ol class="list-unstyled">
+        <li><a href="#" click.delegate="setLocale('en')" t="nav:english">English</a></li>
+        <li><a href="#" click.delegate="setLocale('de')" t="nav:german">German</a></li>
+      </ol>
+    </div>
+  </nav>
+
+</template>

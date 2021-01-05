@@ -1,0 +1,41 @@
+<template>
+<require from="./create-applicant.css"></require>
+
+  <div class="container page">
+    <div class="row">
+      <div class="col-md-6 offset-md-3 col-xs-12">
+        <h2 class="text-xs-center" t="formTitle">Create New Applicant</h2>
+        <form submit.trigger="submit()">
+          <fieldset class="form-group">
+            <input class="form-control form-control-lg" type="text" t="[placeholder,aria-placeholder]namePH" placeholder="Your Name" value.bind="applicant.name & validateOnChange">
+          </fieldset>
+          <fieldset class="form-group">
+            <input class="form-control form-control-lg" type="text" t="[placeholder,aria-placeholder]familyNamePH" placeholder="Your Family Name" value.bind="applicant.familyName & validateOnChange">
+          </fieldset>
+          <fieldset class="form-group">
+            <input class="form-control form-control-lg" type="text" t="[placeholder,aria-placeholder]countryPH" placeholder="Your Country" value.bind="applicant.countryOfOrigin & validateOnChange">
+          </fieldset>
+          <fieldset class="form-group">
+            <input class="form-control form-control-lg" type="text" t="[placeholder,aria-placeholder]emailPH" placeholder="Your Email" value.bind="applicant.emailAddress & validateOnChange">
+          </fieldset>
+          <fieldset class="form-group">
+            <input class="form-control form-control-lg" type="text" t="[placeholder,aria-placeholder]addressPH" placeholder="Your Address" value.bind="applicant.address & validateOnChange">
+          </fieldset>
+          <fieldset class="form-group">
+            <input class="form-control form-control-lg" type="number" t="[placeholder,aria-placeholder]agePH" placeholder="Your Age" value.bind="applicant.age & validateOnChange">
+          </fieldset>
+          <fieldset class="form-group">
+            <label t="hired">Hired</label>
+            <input class="form-control" type="checkbox"  checked.bind="applicant.hired">
+          </fieldset>
+          <fieldset class="form-group">
+            <button class="btn btn-lg btn-primary pull-xs-right" type="submit" disabled.bind="controller.errors.length > 0" t="submit">Submit</button>
+            <button class="btn btn-lg btn-danger" t="reset" type="button" click.trigger="reset()" disabled.bind="disableReset">
+              Reset
+            </button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</template>

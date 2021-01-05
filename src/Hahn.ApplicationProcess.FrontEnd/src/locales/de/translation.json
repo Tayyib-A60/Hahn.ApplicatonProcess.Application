@@ -1,0 +1,18 @@
+{
+  "formTitle": "Neuen Bewerber erstellen",
+  "submit": "einreichen",
+  "reset": "Zurücksetzen",
+  "cancel": "Stornieren",
+  "close": "Schließen",
+  "confirm": "Bestätigen",
+  "namePH": "Dein Name",
+  "familyNamePH": "Ihr Familienname",
+  "countryPH": "Dein Land",
+  "emailPH": "Deine E-Mail",
+  "addressPH": "Deine Adresse",
+  "agePH": "Dein Alter",
+  "hired": "Gemietet",
+  "clearFormTitle": "Formulardaten löschen",
+  "clearFormText": "Möchten Sie die aktuellen Daten wirklich zurücksetzen?",
+  "errorTitle": "Daten können nicht gebucht werden"
+}

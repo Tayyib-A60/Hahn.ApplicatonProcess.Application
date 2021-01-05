@@ -25,7 +25,7 @@ namespace Hahn.ApplicatonProcess.December2020.Data.Repository.Implementations
 
         public void Delete<T>(T entity) where T : class
         {
-            _appDbContext.Remove(entity);
+            _appDbContext.Entry(entity).State = EntityState.Deleted;
         }
 
         public async Task<Applicant> GetApplicant(string id)

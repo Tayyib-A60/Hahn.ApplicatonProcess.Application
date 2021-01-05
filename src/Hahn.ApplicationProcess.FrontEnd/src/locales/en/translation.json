@@ -1,0 +1,18 @@
+{
+  "formTitle": "Create New Applicant",
+  "submit": "Submit",
+  "reset": "Reset",
+  "cancel": "Cancel",
+  "close": "Close",
+  "confirm": "Confirm",
+  "namePH": "Your Name",
+  "familyNamePH": "Your Family Name",
+  "countryPH": "Your Country",
+  "emailPH": "Your Email",
+  "addressPH": "Your Address",
+  "agePH": "Your Age",
+  "hired": "Hired",
+  "clearFormTitle": "Clear Form Data",
+  "clearFormText": "Are you sure you want to reset the current data?",
+  "errorTitle": "Unable to post data"
+}

@@ -104,7 +104,7 @@ namespace Hahn.ApplicatonProcess.December2020.Domain.Services.Implementations
                 }
 
                 var applicantToUpdate = _mapper.Map<ApplicantDTO, Applicant>(applicantDTO, applicant);
-                _repository.Update(applicant);
+                _repository.Update(applicantToUpdate);
 
                 if (await _repository.SaveAllChangesAsync())
                 {
